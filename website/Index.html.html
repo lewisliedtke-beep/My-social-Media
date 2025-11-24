@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meine Social Media Links</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('DemonSlayer.gif') no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.85);
+      padding: 40px 30px;
+      border-radius: 25px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      margin-bottom: 15px;
+      color: #ddd;
+      font-size: 28px;
+    }
+
+    p {
+      margin-bottom: 30px;
+      color: #000;
+      font-size: 16px;
+    }
+
+    .links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 14px;
+      margin: 10px 0;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #000;
+      background: linear-gradient(135deg, #111, #3b0000);
+      box-shadow: 0 6px 20px rgba(255,0,0,0.25);
+    }
+
+    .links a:hover {
+      box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1 style="color: #000;">Willkommen!</h1>
+    <p>Hier findest du meine Social Media Links.</p>
+    <div class="links">
+      <a href="#"><i style="color:#8b0000;" class="fa-brands fa-instagram"></i> Instagram</a>
+      <a href="#"><i style="color:#8b0000;" class="fa-brands fa-tiktok"></i> TikTok</a>
+      <a href="#"><i style="color:#8b0000;" class="fa-brands fa-youtube"></i> YouTube</a>
+      <a href="#"><i style="color:#8b0000;" class="fa-brands fa-twitter"></i> Twitter</a>
+    </div>
+  </div>
+</body>
+</html>
